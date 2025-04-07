@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000080;
+    color: #f0f8ff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E3A8A;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 3px solid #4682B4;
+}
+
+header h1 {
+    text-align: center;
+    flex-grow: 1;
+    color: #87CEEB;
+}
+
+.logo-fia, .logo-f1 {
+    height: 50px;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #0F172A;
+    border: 1px solid #1E90FF;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #ADD8E6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #1E3A8A;
+    color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #4682B4;
+    color: #fff;
+}
+
+table td {
+    background-color: #2C5282;
+    color: #f0f0f0;
+}
+
+footer {
+    background-color: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #4682B4;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+    color: #B0E0E6;
+}
+
+.tabela-equipes {
+}
