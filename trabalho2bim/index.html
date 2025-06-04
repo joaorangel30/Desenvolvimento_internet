@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+        <h2>Tipo De Triângulo</h2>
+        <label>Lado X:</label>
+        <input type="number" id="ladoX">
+        <label>Lado Y:</label>
+        <input type="number" id="ladoY">
+        <label>Lado Z:</label>
+        <input type="number" id="ladoZ">
+        <button class="botao1" onclick="verificarTriangulo()">Verificar</button>
+        <div class="resultado1" id="resultado1"></div>  
+    </div>
+    <div class="container2" style="display: flex; flex-direction: column; align-items: center;">
+        <h2>Índice de Massa Corporal</h2>
+        <label>Peso (KG)</label>
+        <input type="number" id="peso">
+        <label class="CM" >Altura (CM)</label>
+        <input type="number" id="altura">
+        <button class="botao2" onclick="calcularIMC()">Calcular IMC</button>
+        <div class="resultado2" id="resultado2"></div>
+    </div>
+    <div class="container3" style="display: flex; flex-direction: column; align-items: center;">
+        <h2>Calculadora de Juros</h2>
+        <label>Valor inicial(R$)</label>
+        <input type="number" id="valorInicial">
+        <label>Taxa de Juros (%)</label>
+        <input type="number" id="taxaJuros">
+        <label>Tempo (MESES)</label>
+        <input type="number" id="tempo">
+        <button class="botao3" onclick="calcularJuros()">Calcular Juros</button>
+        <div class="resultado3" id="resultado3"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
