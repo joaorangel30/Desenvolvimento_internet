@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio8</title>
+    <href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container" style="display: flex; flex-direction: column; align-items: center; margin-top: 30px;">
+    <h2>Venda de Camisetas</h2>
+
+    <label>Quantidade de camisetas P (R$10):</label>
+    <input type="number" id="quantP" min="0" />
+
+    <label>Quantidade de camisetas M (R$12):</label>
+    <input type="number" id="quantM" min="0" />
+
+    <label>Quantidade de camisetas G (R$15):</label>
+    <input type="number" id="quantG" min="0" />
+
+    <button onclick="calcularVenda()">Calcular Total</button>
+
+    <div id="resultado" style="margin-top: 15px; font-weight: bold;"></div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
